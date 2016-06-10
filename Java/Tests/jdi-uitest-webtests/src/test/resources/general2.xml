@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="jdi-selenium-framework" parallel="false">
+    <test verbose="2" name="jdi-ui-tests" preserve-order="true">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.ChecklistTests"/>
+            <class name="com.epam.jdi.uitests.testing.ComboBoxTests"/>
+            <class name="com.epam.jdi.uitests.testing.CommonActionsData"/>
+            <class name="com.epam.jdi.uitests.testing.DropdownTests"/>
+            <class name="com.epam.jdi.uitests.testing.DropdownExpandedTests"/>
+            <class name="com.epam.jdi.uitests.testing.RadioButtonsTests"/>
+            <class name="com.epam.jdi.uitests.testing.RadioButtonsWithSelectedTests"/>
+            <class name="com.epam.jdi.uitests.testing.SelectorTests"/>
+            <class name="com.epam.jdi.uitests.testing.SelectorWithSelectedTests"/>
+        </classes>
+    </test>
+    <test name="button">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.ButtonTests"/>
+        </classes>
+    </test>
+    <test name="label">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.LabelTests"/>
+        </classes>
+    </test>
+    <test name="link">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.LinkTests"/>
+        </classes>
+    </test>
+    <test name="textArea">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.TextAreaTests"/>
+        </classes>
+    </test>
+    <test name="textField">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.TextFieldTests"/>
+        </classes>
+    </test>
+    <test name="text">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.TextTests"/>
+        </classes>
+    </test>
+    <test name="fileInput">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.RFileInputTests"/>
+        </classes>
+    </test>
+    <test name="checkBox">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.CheckboxTests"/>
+        </classes>
+    </test>
+    <test name="datePicker">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.DatePickerTests"/>
+        </classes>
+    </test>
+    <test name="image">
+        <classes>
+            <class name="com.epam.jdi.uitests.testing.ImageTests"/>
+        </classes>
+    </test>
+</suite>
